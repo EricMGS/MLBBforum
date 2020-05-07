@@ -21,6 +21,9 @@ O site poderá ser acessado publicamente através do seguinte link: [MLBB Fórum
 ## Contribuição
 O projeto será disposto publicamente para envio de branches e avaliado pelo autor para possíveis merges  
 Futuramente será disponibilizado aqui os cálculos utilizados, para que possam ser avaliados e ajustados livremente
+
+## Licença
+O projeto está sob licença MIT podendo ser utilizado, modificado e replicado publicamente por qualquer pessoa sob os termos da mesma  
   
    
  Para mais informações entrar em contato com [EricMGS](https://github.com/EricMGS) no GitHub  
