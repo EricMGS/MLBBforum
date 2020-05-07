@@ -1,6 +1,6 @@
-# MLBBforum 
-![Mobile Legends Icon](https://upload.wikimedia.org/wikipedia/en/9/9e/Mobilelegends.png)  
+# MLBBforum  
 Projeto de aula de Programação Web: Fórum do jogo Mobile Legends Bang Bang  
+![Mobile Legends Icon](https://upload.wikimedia.org/wikipedia/en/9/9e/Mobilelegends.png) 
 
 ## O Projeto  
 Este projeto consiste de um website feito com o propósito de apresenta-ló como projeto final da disciplina Programação Web  
