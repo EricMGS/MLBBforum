@@ -15,5 +15,12 @@ A intenção é de futuramente fazê-lo um site funcional que possuirá diversas
  - Comparação de eficácia de heróis em composições
  - etc
 
-# Acesso ao site
-O site poderá ser acessado publicamente através do seguinte link: [MLBB Fórum]()
+## Acesso ao site
+O site poderá ser acessado publicamente através do seguinte link: [MLBB Fórum](https://ericmgs.github.io/MLBBforum/)
+
+## Contribuição
+O projeto será disposto publicamente para envio de branches e avaliado pelo autor para possíveis merges  
+Futuramente será disponibilizado aqui os cálculos utilizados, para que possam ser avaliados e ajustados livremente
+  
+   
+ Para mais informações entrar em contato com [EricMGS](https://github.com/EricMGS) no GitHub  
