@@ -14,3 +14,6 @@ A intenção é de futuramente fazê-lo um site funcional que possuirá diversas
  - Cálculos de tempo e ouro ganho em diferentes rotações
  - Comparação de eficácia de heróis em composições
  - etc
+
+# Acesso ao site
+O site poderá ser acessado publicamente através do seguinte link: [MLBB Fórum]()
