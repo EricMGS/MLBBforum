@@ -5,6 +5,7 @@ Projeto de aula de Programação Web: Fórum do jogo Mobile Legends Bang Bang
 Este projeto consiste de um website feito com o propósito de apresenta-ló como projeto final da disciplina Programação Web  
 O website é um fórum feito para o jogo **Mobile Legends: Bang Bang**, um jogo MOBA para dispositivos móveis  
 No website haverá o fórum onde poderão ser postados dúvidas, dicas e comentários, e uma biblioteca onde estará disponível todos os recursos do jogo para consulta  
+Não se trata de um projeto oficial da produtora  
 
 ## Possíveis versões futuras
 Inicialmente o projeto será usado apenas para apresentação para a disciplina
