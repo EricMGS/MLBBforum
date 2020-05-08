@@ -1,13 +1,13 @@
 ---
 name: Nova funcionalidade
-about: Sugerir nova funcionalidade
+about: Adicionar nova funcionalidade
 title: ''
 labels: nova funcionalidade
 assignees: EricMGS
 
 ---
 
-Descreva aqui as funcionalidades a serem adicionadas:
+**Descreva aqui as funcionalidades a serem adicionadas:**  
   
   
-Observações:
+**Observações:**
