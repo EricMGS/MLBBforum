@@ -2,7 +2,7 @@
 name: Alteração
 about: Propor alteração
 title: ''
-labels: good first issue
+labels: alteração
 assignees: EricMGS
 
 ---
