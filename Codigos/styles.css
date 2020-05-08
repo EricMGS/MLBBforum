@@ -1,4 +1,33 @@
+h1 {
+	color: #DDD;
+	margin-left: 10px;
+}
+
 .topnav {
 	background-color: #333;
 	overflow: hidden;
+}
+
+.btnFlat {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 10px;
+	width: 180px;
+    height: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 24px;
+    font-family: "Lato",sans-serif;
+	color: #DDD;
+}
+
+.btnFlat:hover {
+	transition: all 0.3s ease-in-out;
+	color: #DDD;
+	font-size: 28px;
+	transform:scale(1.1);
 }
