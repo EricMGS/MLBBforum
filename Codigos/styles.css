@@ -1,20 +1,43 @@
-h1 {
-	color: #DDD;
+.logo {
+	/* Centralização*/
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 	margin-left: 10px;
+
+	color: #DDD;
+	font-size: 30px;
+	transition: .5s;
+	font-family: "Lato", sans-serif;
+	text-decoration: none;
+}
+
+.logo:hover {
+	transition: all 0.3s ease-in-out;
+	color: #DDD;
+	font-size: 38px;
+	transform:scale(1.1);
+	transform: translate(0, -50%);
 }
 
 .topnav {
+	position: relative;
 	background-color: #333;
 	overflow: hidden;
+	height: 80px;
+	width: 100vw;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .btnFlat {
+	/*Centralização*/
 	position: absolute;
 	right: 0;
-	top: 0;
-	margin-top: 10px;
-	width: 180px;
-    height: 80px;
+	margin-right: 10px;
+	top: 50%;
+	transform: translate(0, -50%);
+
     border: none;
     outline: none;
     cursor: pointer;
@@ -30,4 +53,5 @@ h1 {
 	color: #DDD;
 	font-size: 28px;
 	transform:scale(1.1);
+	transform: translate(0, -50%);
 }
