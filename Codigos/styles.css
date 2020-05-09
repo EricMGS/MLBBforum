@@ -14,7 +14,7 @@
 
 .logo:hover {
 	transition: all 0.3s ease-in-out;
-	color: #DDD;
+	color: #44bcd8;
 	font-size: 38px;
 	transform:scale(1.1);
 	transform: translate(0, -50%);
@@ -50,7 +50,7 @@
 
 .btnFlat:hover {
 	transition: all 0.3s ease-in-out;
-	color: #DDD;
+	color: #44bcd8;
 	font-size: 28px;
 	transform:scale(1.1);
 	transform: translate(0, -50%);
