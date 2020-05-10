@@ -54,6 +54,26 @@
 	vertical-align: middle;
 }
 
+.divTopicos {
+	position: fixed;
+	left: 200px;
+	top: 90px;
+	background-color: black;
+	width: 400px;
+	height: 80%;
+}
+
+.divTopicos p {
+	color: white;
+	font-size: 23px;
+}
+
+.btnNovoTopico {
+	position: absolute;
+	right: 0px;
+	top: 0px;	
+}
+
 .btnFlat {
 	/*Centralização*/
 	position: absolute;
