@@ -1,3 +1,18 @@
+body {
+	margin: 0;
+}
+
+.topnav {
+	position: absolute;
+	top: 0;
+	background-color: #5f5f5f;
+	height: 80px;
+	width: 100%;
+	vertical-align: middle;
+	z-index: 2;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
 .logo {
 	/* Centralização*/
 	position: absolute;
@@ -5,7 +20,7 @@
 	transform: translate(0, -50%);
 	margin-left: 10px;
 
-	color: #DDD;
+	color: #f1f1f1;
 	font-size: 30px;
 	transition: .5s;
 	font-family: "Lato", sans-serif;
@@ -44,15 +59,6 @@
 	transform: translate(0, -50%);
 }
 
-.topnav {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	background-color: #333;
-	height: 80px;
-	width: 100vw;
-	vertical-align: middle;
-}
 
 .divTopicos {
 	position: fixed;
@@ -89,7 +95,7 @@
     transition: .5s;
     font-size: 24px;
     font-family: "Lato",sans-serif;
-	color: #DDD;
+	color: #f1f1f1;
 }
 
 .btnFlat:hover {
