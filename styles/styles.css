@@ -2,6 +2,14 @@ body {
 	margin: 0;
 }
 
+.corpo {
+	position: fixed;
+	left: 150px;
+	width: 100%;
+	top: 80px;
+	height: 100%;
+}
+
 .topnav {
 	position: absolute;
 	top: 0;
@@ -64,14 +72,31 @@ body {
 	position: fixed;
 	left: 200px;
 	top: 90px;
-	background-color: black;
+	border: 2px solid black;
 	width: 400px;
 	height: 80%;
 }
 
 .divTopicos p {
-	color: white;
 	font-size: 23px;
+}
+
+.iframeTopicos {
+	position: fixed;
+	left: 700px;
+	top: 90px;
+	width:600px;
+	height: 80%;
+}
+
+.iframeTopicos iframe {
+	width: 100%;
+	height: 70%;
+}
+
+.commentBox {
+	width: 100%;
+	border: 2px solid black;
 }
 
 .btnNovoTopico {
