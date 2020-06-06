@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 0.2vmin;
+	height: 100%;
+}
+
+.smallText {
+	font-size: 10rem;
+}
+
+.mediumText {
+	font-size: 15rem;
+}
+
+.bigText {
+	font-size: 20rem;
+}
+
+.white {
+	color: #f1f1f1;
+}
+
+.black {
+	color: black;
+}
+
+.backPrimaryColor {
+	background-color: #054A45;
+}
+
+.backSecondaryColor {
+	background-color: #DDD;
+}
+
+.botao {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    font-family: "Lato",sans-serif;
+    text-decoration: none;
+}
+
+.header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1vw;
+	width: 100%;
+	height: 10vh;
+	font-size: 2em;
+	box-sizing: border-box;
+	box-shadow: 0 4em 1em 0 rgba(0,0,0,0.16);
+	z-index: 2;
+}
+
+.popEfect:hover {
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+}
+
+.popEfectColor:hover {
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+	color: #054A45;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 5vh;
+	box-shadow: 0 -4em 1em 0 rgba(0,0,0,0.16);
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+	padding: 0 1vw;
+}
+
+.pagina {
+	position: absolute;
+	top: 10vh;
+	bottom: 5vh;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.frmLogin > * {
+	width: 15vw;
+	height: 5vh;
+	margin-bottom: 2vh;
+	box-sizing: border-box;
+}
+
+.divLogin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 30vw;
+	height: 60vh;
+	border: 1px solid black;
+}
+
+.linkCadastro {
+	display: inline-block;
+	margin-left: 1vw;
+}

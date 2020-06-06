@@ -3,37 +3,48 @@
 <head>
 	<title>MLBB Fórum</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="styles/styles.css">
-	<script src="scripts/script.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<script src="script.js"></script>
 </head>
-<body>
-	<header class="topnav" id="topnav">
-		<a class="logo" href="index.html">MLBB Fórum</a>
-		<button class="btnFlat" id="btnLogin">Login</button>
+<body onload="onload()">
+	<header class="header backPrimaryColor" id="header">
+		<a class="botao popEfect bigText white" href="index.html">MLBB Fórum</a>
+		<a class="botao popEfect bigText white" href="login.html">Login</a>
 	</header>
-	<nav class="sidenav" id="sidenav">
-		<a href="">Fórum</a><br>
-		<a href="">Heróis</a><br>
-		<a href="">Emblemas</a><br>
-		<a href="">Itens</a><br>
-		<a href="">Feitiços</a><br>
-	</nav>
-	<div class="corpo" id="corpo">
-		<div class="divTopicos" id="divTopicos">
-			<p>Tópicos</p><br>
-			<ul class="list" id="listTopicos">
-			</ul>
-			<button class="btnNovoTopico">Novo Tópico</button>
+
+	<nav class="nav" id="nav">
+		<div class="divTopicosNavTitulo">
+			<h1 class="mediumText">Tópicos</h1>
+			<i class="material-icons popEfect iconButton" id="btnNovoTopico">add_box</i>
 		</div>
-		<div class="iframeTopicos" id="iframeTopicos">
-			<p>Tópico:</p><br>
-			<iframe src=""></iframe>
-			<div class="commentBox" id="commentBox">
-				<p>Escreva aqui seu comentário...</p>
-				<button id="btnEnviar">Enviar</button>
+		<div class="divTopicosNavLista">
+			<ul class="listaTopicos" id="listaTopicos">
+				<!-- LISTA DE TÓPICOS AQUI -->
+				<a class="smallText botao black popEfectColor" href="pages/hello.html" target="iframe">Bem-vindo ao fórum MLBB</a><br>
+				<a class="smallText botao black popEfectColor" href="pages/comoBuildar.html" target="iframe">Como buildar?</a><br>
+				<a class="smallText botao black popEfectColor" href="pages/melhoresHerois.html" target="iframe">Melhores herois</a><br>
+				<a class="smallText botao black popEfectColor" href="" target="iframe"></a><br>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="section" id="section">
+		<div class="chat">
+			<iframe src="pages/hello.html" class="iframe" id="iframe_topico" name="iframe"></iframe>
+			<div class="msgBox">
+				<textarea class="smallText" id="inputText" placeholder="Escreva sua mensagem..."></textarea>
+				<div class="divBtnEnviar">
+					<button class="botao popEfectColor mediumText" id="btnEnviar"">Enviar</button>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	<footer class="footer backPrimaryColor">
+		<p class="smallText white">MLBB FORUM</p>
+		<p class="smallText white">TRABALHO DE PROGRAMAÇÃO WEB</p>
+		<p class="smallText white">DESENVOLVIDO EM: JUNHO DE 2020</p>
+	</footer>
 </body>
 </html>
